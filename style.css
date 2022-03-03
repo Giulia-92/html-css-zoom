@@ -7,6 +7,9 @@
     width: 90%;
     margin: 0 auto;
     padding-top:60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 .debug {
@@ -14,38 +17,87 @@
 }
 .flex{
     display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    justify-content: flex-end;
+  
 }
 body{
     background-color: black;
 }
 main{
     height:calc(100vh - 40px);
-background-color:grey;
+ background-color:rgb(0, 0, 0);
 }
 header{
-    background-color: rgb(245, 241, 241);
+    background-color: rgb(0, 0, 0);
 }
+
 .top{
     z-index:1000;
     justify-content: flex-end;
     position: fixed;
     left: 0;
     right: 0;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     height:60px;
+}
+.btn1{
+    color:white;
+    margin-right:10px;
+    font-size:15px;
+    width:10%;
+    display:flex 
 }
 .box{
     flex-basis: calc(100%/7);
     min-width: 100px;
 }
-.imput .output{
-    flex:0 1 25%;
+.footerflex{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color:#3F3636;
 }
-footer{
-    flex:0 1 50%
+.imput {
+    color: white;
+    margin-right:10px;
+    font-size:15px;
+    width:10%;
+    display:flex
 }
+.fa-solid, .fas{
+   margin-right:40px;
+   font-size: 20px;
+   
+}
+.mute{
+    font-family:'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.video{
+    font-family:'Open Sans', sans-serif;
+    font-size: 15px;   
+}
+.options{
+    color: white;
+    margin-right:10px;
+    font-size:15px;
+    width:10%;
+    display:flex;
+    list-style-type:none;
+}
+.output{
+    color: red;
+    font-size: 20px;
+    width:20%;
+    background-color:#524d4d;
+    text-align: center;
+    font-family:'Open Sans', sans-serif;
+    
+}
+
+
+
+
 
 
 
