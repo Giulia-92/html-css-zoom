@@ -18,13 +18,18 @@
 .flex{
     display: flex;
     justify-content: flex-end;
+    background-color: black;
   
+}
+.flexlist{
+    display: flex;
+    justify-content: space-between;
 }
 body{
     background-color: black;
 }
 main{
-    height:calc(100vh - 40px);
+    height:calc(100vh - 35px);
  background-color:rgb(0, 0, 0);
 }
 header{
@@ -39,29 +44,38 @@ header{
     right: 0;
     background-color: rgb(0, 0, 0);
     height:60px;
+    width:100%;
+    color: white;
+    font-family:'Open Sans', sans-serif;
+    font-size: 15px;
 }
 .btn1{
     color:white;
     margin-right:10px;
     font-size:15px;
     width:10%;
-    display:flex 
+    display:flex;
+    vertical-align: middle;
 }
 .box{
     flex-basis: calc(100%/7);
     min-width: 100px;
+    gap:8px;
 }
 .footerflex{
     display: flex;
     justify-content: space-between;
-    height: 50px;
+    height:80px;
     background-color:#3F3636;
+    position: absolute;
+    width: 100%;
+    vertical-align: middle;
 }
 .imput {
     color: white;
     margin-right:10px;
     font-size:15px;
-    width:10%;
+    width:16%;
     display:flex
 }
 .fa-solid, .fas{
@@ -81,18 +95,23 @@ header{
     color: white;
     margin-right:10px;
     font-size:15px;
-    width:10%;
-    display:flex;
+    width:50%;  
+}
+.optionlist {
     list-style-type:none;
+    height: 40px;
+    font-family:'Open Sans', sans-serif;
+    font-size:15px;
 }
 .output{
+    display: flex;
     color: red;
     font-size: 20px;
     width:20%;
     background-color:#524d4d;
     text-align: center;
     font-family:'Open Sans', sans-serif;
-    
+    justify-content: center;   
 }
 
 
